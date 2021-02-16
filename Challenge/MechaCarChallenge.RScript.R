@@ -10,9 +10,7 @@ shapiro.test(MechaCar_table$mpg)
 #Create a correlation matrix to visualize pearson correlation coefficent
 Mecha_matrix <- data.matrix(MechaCar_table, rownames.force = NA)
 cor(Mecha_matrix)
-#Filter out AWD from the dataframe before running mult linear regress
-#The input data must be numerical and continuous
-filtered_Mecha <- subset(MechaCar_table, select = -c(AWD))
+
 #run mult linear regression
 lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance, data=filtered_Mecha)
 summary(lm(mpg ~ vehicle.length + vehicle.weight + spoiler.angle + ground.clearance, data=filtered_Mecha))
