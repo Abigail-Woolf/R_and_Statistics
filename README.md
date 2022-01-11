@@ -1,7 +1,7 @@
 # R_and_Statistics
 
 ## Project Overview
-For this project I analyzed two datasets, MechaCar_mpg.csv and Suspension_Coil.csv to determine if the manufacturing of the car prototype is consistent across lots. The car prototype, MechaCar, is suffering from production troubles due to certain vehicle specifications and manufacturing processes. This analysis is necessary to determine what last minute changes need to be made for producition of optimal cars. 
+For this project I analyzed two datasets, MechaCar_mpg.csv and Suspension_Coil.csv to determine if the manufacturing of the car prototype is consistent across lots. The car prototype, MechaCar, is suffering from production troubles due to certain vehicle specifications and manufacturing processes. This analysis is necessary to determine what last minute changes need to be made for production of optimal cars. 
 
 ## Data Files
 MechaCar_mpg.csv 
